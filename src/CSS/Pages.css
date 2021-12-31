@@ -1,0 +1,108 @@
+.loading {
+    height: 60vh;
+    position: relative;
+}
+
+.css-18lrjg1-MuiCircularProgress-root {
+    position: absolute;
+    top: 25vh;
+    left: 40vw;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 20vw !important;
+    height: 20vw !important;
+}
+
+.noAll {
+    height: 60vh;
+    text-align: center;
+}
+
+.noSearchIcon {
+    width: 20vw !important;
+    height: 20vw !important;
+    fill: darkred !important;
+}
+
+.noAllCenter {
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+}
+
+.noText {
+    color: darkred;
+}
+
+.noTextEmpty {
+    color: #1976d2;
+}
+
+.searchIcon {
+    width: 20vw !important;
+    height: 20vw !important;
+    fill: #1976d2 !important;
+}
+
+.forecastCardGraph {
+    text-align: center;
+}
+
+.forecastGraph {
+    height: 64vh;
+    width: 94vw;
+    padding: 0 3vw;
+}
+
+.forecastHeader {
+    text-align: center;
+    color: white;
+}
+
+.forecastTitle {
+    font-size: 3em;
+}
+
+.forrestCard {
+    max-height: 15vh !important;
+    border-radius: 0 !important;
+    border-bottom-left-radius: 50px !important;
+    border-bottom-right-radius: 50px !important;
+}
+
+rect {
+    cursor: pointer !important;
+}
+
+text {
+    fill: white !important;
+    font-size: 15px !important;
+}
+
+line {
+    stroke: white !important;
+}
+
+@media only screen and (max-width: 600px) {
+    text {
+        font-size: 7px !important;
+    }
+}
+
+.fDesc {
+    font-size: 1.7vh !important;
+    margin-bottom: 0 !important;
+}
+
+.fCityName {
+    font-size: 2.4vh !important;
+}
+
+.fTemp {
+    font-size: 1.6vh !important;
+}
+
+.fDate {
+    font-size: 1.4vh !important;
+}

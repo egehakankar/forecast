@@ -1,0 +1,29 @@
+.searchBox {
+    background-color: white;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.sIcon {
+    margin-left: -30px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.inpText {
+    width: 250px;
+    max-width: 30vw;
+}
+
+.MuiFilledInput-input {
+    padding-right: 35px !important;
+}
+
+.searchButton {
+    position: absolute !important;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
