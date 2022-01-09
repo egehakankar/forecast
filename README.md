@@ -11,7 +11,7 @@ Uses class component for header.\
 1- APEX Charts\
 2- Axios
 ### API
-1- Weatherbit API\
+1- Weatherbit API
 
 ## Available Scripts
 
