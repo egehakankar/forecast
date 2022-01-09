@@ -118,9 +118,9 @@ function CityForecast(props) {
             }
         }
         else {
-            for (var a = 0; a < 10; a++) {
-                if (props.data[a].app_min_temp === minHigh[1]) {
-                    setDay(props.data[a])
+            for (var counter = 0; counter < 10; counter++) {
+                if (props.data[counter].app_min_temp === minHigh[1]) {
+                    setDay(props.data[counter])
                     break
                 }
             }

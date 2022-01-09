@@ -46,7 +46,7 @@ function SearchField() {
                     <input className="inpText" type="text" name="name" placeholder="Search City" onChange={(e) => {
                         setCity(e.target.value);
                     }} />
-                    <input type = "image" src = {SearchIcon2} className="sIcon" />
+                    <input type = "image" src = {SearchIcon2} className="sIcon" alt = "searchIcon"/>
                 </form>
             </div>
             <Forecast className="forecast" weathers={forecast} />

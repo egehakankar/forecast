@@ -19,7 +19,7 @@ export default function ForecastCard(props) {
                     {day}
                 </div>
                 <div className="fDesc">
-                    <img className="descIcon" src={"/icons/" + props.day.weather.icon + ".png"} />
+                    <img className="descIcon" src={"/icons/" + props.day.weather.icon + ".png"} alt = "descIcon"/>
                     <div className="descTitle">
                         {props.day.weather.description}
                     </div>

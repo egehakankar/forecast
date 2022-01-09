@@ -19,7 +19,7 @@ function Forecast(props) {
                 <CityForecast data={props.weathers.data} cityName = {props.weathers.city_name}/>
             )
         }
-        else if (props.weathers == "Empty") {
+        else if (props.weathers === "Empty") {
             return (
                 <NoCity />
             )
