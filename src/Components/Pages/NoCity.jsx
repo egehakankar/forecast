@@ -1,13 +1,11 @@
 import React from 'react'
 
-import SearchIcon from '@mui/icons-material/Search';
-
 function NoCity() {
     return (
         <div className="noCity noAll">
             <div className="noCenter noAllCenter">
-                <SearchIcon className="searchIcon" />
-                <h1 className="noTextEmpty">Search a new city</h1>
+                <div className="noTitle noTextTitle">No city is selected!</div>
+                <div className="noParagraph">Type any city name to get weekly forecast data</div>
             </div>
         </div>
     )

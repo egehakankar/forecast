@@ -1,5 +1,41 @@
 body {
     margin: 0px !important;
-    background-color: #1976d291;
     font-family: system-ui;
+    height: 100vh;
+}
+
+.header {
+    background: #545454;
+    color: white;
+    height: 10vh;
+    position: relative;
+}
+
+.header_title {
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+}
+
+@media only screen and (max-height: 900px) {
+    .header_title {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+
+@media only screen and (max-height: 700px) {
+    .header_title {
+        font-size: 20px;
+        line-height: 30px;
+    }
 }

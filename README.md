@@ -8,8 +8,8 @@ Uses class component for header.\
 
 ## Used Technologies:
 ### React.js
-1- Material UI\
-3- Axios
+1- APEX Charts\
+2- Axios
 ### API
 1- Weatherbit API\
 

@@ -1,29 +1,61 @@
 .searchBox {
     background-color: white;
-    padding: 10px 20px;
+    height: 18vh;
     position: relative;
 }
 
-.sIcon {
-    margin-left: -30px;
+.form {
     position: absolute;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.sIcon {
+    margin-left: -60px;
+    margin-bottom: -5px;
+    width: 35px;
 }
 
 .inpText {
-    width: 250px;
-    max-width: 30vw;
+    height: 7.5vh;
+    width: 37vw;
+    max-height: 75px;
+    border-radius: 9999px;
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.25);
+    font-family: Verdana;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    padding: 0 2vw;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #545454;
+    margin-left: -25px;
 }
 
-.MuiFilledInput-input {
-    padding-right: 35px !important;
+.inpText::placeholder {
+    color: #545454;
+    opacity: 50%;
 }
 
-.searchButton {
-    position: absolute !important;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+@media only screen and (max-width: 1000px) {
+    .inpText {
+        width: 70vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .inpText {
+        padding: 0 3vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .inpText {
+        padding: 0 4vw;
+    }
 }

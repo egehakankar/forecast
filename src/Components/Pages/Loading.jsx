@@ -1,10 +1,12 @@
 import React from 'react'
-import CircularProgress from '@mui/material/CircularProgress';
 
 function Loading() {
     return (
         <div className="loading">
-            <CircularProgress />
+            <div className="load-container">
+                <div className="lds-hourglass"></div>
+                <div className="loading-text">Searching...</div>
+            </div>
         </div>
     )
 }
