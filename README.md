@@ -4,7 +4,7 @@ Daily forecast app.
 ## Notes:
 Uses Weatherbit API for forecast data.\
 Uses hooks for graph and search.\
-Uses class component for header.\
+Uses class component for header.
 
 ## Used Technologies:
 ### React.js
